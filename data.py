@@ -18,8 +18,8 @@ def randomSetOfMeans(counter):
         value = data[randomIndex]
         dataSet.append(value)
 
-        mean = statistics.mean(dataSet)
-        return mean
+    mean = statistics.mean(dataSet)
+    return mean
 
 meanList = []
 
